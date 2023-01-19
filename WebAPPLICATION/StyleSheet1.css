@@ -1,0 +1,42 @@
+﻿body, td, th {
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    color: #06F;
+}
+
+a:active {
+    color: #00F;
+}
+
+.text-links {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+}
+
+.context1 {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.context2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+

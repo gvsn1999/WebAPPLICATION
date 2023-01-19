@@ -1,0 +1,253 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0C9D576-2DA5-4CF1-9F79-30961C54D583}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebAPPLICATION</RootNamespace>
+    <AssemblyName>WebAPPLICATION</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44361</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMAGES\+.png" />
+    <Content Include="IMAGES\12-125337_eminem-on-stage-eminem-on-stage-hd.jpg" />
+    <Content Include="IMAGES\12-125337_eminem-on-stage-eminem-on-stage-hd_335x210.jpg" />
+    <Content Include="IMAGES\12-125568_preview-eminem-hd-wallpapers-slim-shady-wallpaper-hd.jpg" />
+    <Content Include="IMAGES\19EMINEM1-videoSixteenByNineJumbo1600.jpg" />
+    <Content Include="IMAGES\2806270_335x210.jpg" />
+    <Content Include="IMAGES\48-489696_eminem-full-hd-wallpaper-photo-eminem-hd.jpg" />
+    <Content Include="IMAGES\48-489696_eminem-full-hd-wallpaper-photo-eminem-hd_335x210.jpg" />
+    <Content Include="IMAGES\artworks-000670076080-q6thx9-t500x500.jpg" />
+    <Content Include="IMAGES\bad meets evil.png" />
+    <Content Include="IMAGES\better quality.jpg" />
+    <Content Include="IMAGES\CURTAINCALL_335x210.jpg" />
+    <Content Include="IMAGES\cvbgbhjkhggvhbjk.jpg" />
+    <Content Include="IMAGES\dggdsg.jpg" />
+    <Content Include="IMAGES\dggdsg_335x210.jpg" />
+    <Content Include="IMAGES\download.jpg" />
+    <Content Include="IMAGES\download.png" />
+    <Content Include="IMAGES\drfghjn.jpg" />
+    <Content Include="IMAGES\Eminem-2009.jpg" />
+    <Content Include="IMAGES\Eminem-2009_335x210.jpg" />
+    <Content Include="IMAGES\eminem-cover-use-only-990-compressed.jpg" />
+    <Content Include="IMAGES\Eminem-Logo-700x394.png" />
+    <Content Include="IMAGES\eminem-rap-hip-hop-motivational-wallpaper-preview.jpg" />
+    <Content Include="IMAGES\eminem-rapper-wallpaper-preview.jpg" />
+    <Content Include="IMAGES\eminem-rapper-wallpaper-preview_335x210.jpg" />
+    <Content Include="IMAGES\eminem-screensavers-and-backgrounds-wallpaper-preview.jpg" />
+    <Content Include="IMAGES\eminem.jpg" />
+    <Content Include="IMAGES\eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg" />
+    <Content Include="IMAGES\encore.jpg" />
+    <Content Include="IMAGES\gcfgvhbjnkmjhg.jpg" />
+    <Content Include="IMAGES\Generazione-Z-contro-Eminem-i-Millennials-reagiscono-1.jpg" />
+    <Content Include="IMAGES\Generazione-Z-contro-Eminem-i-Millennials-reagiscono-1_335x210.jpg" />
+    <Content Include="IMAGES\godzilla.jpeg" />
+    <Content Include="IMAGES\godzzilaaa.JPG" />
+    <Content Include="IMAGES\godzzilaaa_335x210.jpg" />
+    <Content Include="IMAGES\hgihger.jpg" />
+    <Content Include="IMAGES\hgihger_335x210.jpg" />
+    <Content Include="IMAGES\higher.png" />
+    <Content Include="IMAGES\https___d1e00ek4ebabms.cloudfront.net_production_cc7a0863-04ae-4ad8-94cf-7a62bef1dc51.jpg" />
+    <Content Include="IMAGES\https___d1e00ek4ebabms.cloudfront.net_production_cc7a0863-04ae-4ad8-94cf-7a62bef1dc51_335x210.jpg" />
+    <Content Include="IMAGES\infinite.png" />
+    <Content Include="IMAGES\kamikaze.jpg" />
+    <Content Include="IMAGES\killshot.jpg" />
+    <Content Include="IMAGES\ksjcn.png" />
+    <Content Include="IMAGES\logooooooooo.jpg" />
+    <Content Include="IMAGES\lp 2.png" />
+    <Content Include="IMAGES\marshall mathers lp.jpg" />
+    <Content Include="IMAGES\maxresdefault.jpg" />
+    <Content Include="IMAGES\maxresdefault_335x210.jpg" />
+    <Content Include="IMAGES\merch5.png" />
+    <Content Include="IMAGES\music to be murdered by.png" />
+    <Content Include="IMAGES\nfkdsgfbdgnfhguytrtyetrrer.png" />
+    <Content Include="IMAGES\png-clipart-logo-free-drawing-convenience-text-rapper.png" />
+    <Content Include="IMAGES\png-clipart-logo-free-drawing-convenience-text-rapper_500x190resized.png" />
+    <Content Include="IMAGES\rap god.jpg" />
+    <Content Include="IMAGES\rap_god_335x210.jpg" />
+    <Content Include="IMAGES\recovery.jpg" />
+    <Content Include="IMAGES\relapse.jpg" />
+    <Content Include="IMAGES\resized.png" />
+    <Content Include="IMAGES\revival.jpg" />
+    <Content Include="IMAGES\revival_335x210.jpg" />
+    <Content Include="IMAGES\SIDE-B-LS-F.PNG_50a75a94-3ad5-46dd-9f3b-37a8ec050e92_480x.png" />
+    <Content Include="IMAGES\SideB-Merch_8a_480x.png" />
+    <Content Include="IMAGES\SideB-Merch_9a_480x.png" />
+    <Content Include="IMAGES\singer-actor-4k-eminem-wallpaper-preview.jpg" />
+    <Content Include="IMAGES\singer-actor-4k-eminem-wallpaper-preview_335x210.jpg" />
+    <Content Include="IMAGES\skflsim shad.jpg" />
+    <Content Include="IMAGES\skflsim_shad_1_335x210.jpg" />
+    <Content Include="IMAGES\slim shady lp.jpg" />
+    <Content Include="IMAGES\slim.jpg" />
+    <Content Include="IMAGES\slim_335x210.jpg" />
+    <Content Include="IMAGES\venom.jpg" />
+    <Content Include="IMAGES\venomnn.jpg" />
+    <Content Include="IMAGES\wallpaperflare.com_wallpaper.png" />
+    <Content Include="IMAGES\wallpaperflare.com_wallpaper_1_335x210.jpg" />
+    <Content Include="IMAGES\wallpaperflare.com_wallpaper_4_1_335x210.jpg" />
+    <Content Include="IMAGES\wallpaperflare.com_wallpaper_5_335x210.jpg" />
+    <Content Include="IMAGES\words.jpg" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Web.config" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="History.aspx" />
+    <Content Include="Merch.aspx" />
+    <Content Include="Music.aspx" />
+    <Content Include="Videos.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Merch.aspx.cs">
+      <DependentUpon>Merch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merch.aspx.designer.cs">
+      <DependentUpon>Merch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Music.aspx.cs">
+      <DependentUpon>Music.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Music.aspx.designer.cs">
+      <DependentUpon>Music.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Videos.aspx.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Videos.aspx.designer.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMAGES\BLINDS-TEE-BOTH_1024x1024.webp" />
+    <Content Include="IMAGES\EM-0262_HigherUFCMerch_Products-Hoodie_1024x1024.webp" />
+    <Content Include="IMAGES\eminem-cancelled-1614791085168.webp" />
+    <Content Include="IMAGES\hgfdfghnjhgf.webp" />
+    <Content Include="IMAGES\higher 2.webp" />
+    <Content Include="IMAGES\merch.webp" />
+    <Content Include="IMAGES\merch2.webp" />
+    <Content Include="IMAGES\merch3.webp" />
+    <Content Include="IMAGES\merch4.webp" />
+    <Content Include="IMAGES\SIDE-B-LS-BOTH.PNG_994ec245-1e6a-49c5-8691-4361d35a6b4b_1024x1024.webp" />
+    <Content Include="IMAGES\SideB-Merch_8_1024x1024.webp" />
+    <Content Include="IMAGES\SideB-Merch_9_1024x1024.webp" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65006</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44361/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
